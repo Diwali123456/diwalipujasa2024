@@ -86,6 +86,11 @@ import('emailjs').then((emailjsModule) => {
               Jai Shri Mataji 🙏🏻💝<br><br>
               Thank you for completing the registration process. We are delighted to inform you that your registration for the <strong>Diwali Puja</strong> has been successful.😄<br><br>
               Your Unique Registration Number (URN) is: <strong>${urn}</strong>.<br><br>
+              For Diwali puja inforamtion, please visit : https://diwalipujasa2024.onrender.com/ <br>
+              For any queries, feel free to reach out to us :<br>
+              <strong> For Registration:</strong>Miss.Priyanka Nagar - +27 780825549<br>
+              <Strong> For Accomodation:</strong>Mrs.Bhuvana Moodley - +27 725704207<br><br>
+              <strong> For General Enquires:</strong> Mrs.Yajnaa Haridas - +27 837833771<br><br>
               We look forward to celebrating this auspicious occasion with you.<br><br>
               Best Regards,<br>
               <strong>The Registration Team 💝</strong>
