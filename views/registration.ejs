@@ -33,20 +33,20 @@
                         <tbody>
                             <tr>
                                 <td>Adults (26+)</td>
-                                <td>€ 280.00/-</td>
-                                <td>€ 350.00/-</td>
+                                <td>R 280.00/-</td>
+                                <td>R 350.00/-</td>
                                <!-- <td>R 3800.00</td>-->
                             </tr>
                             <tr>
                                 <td>Yuvas (18-26)</td>
-                                <td>€ 260.00/-</td>
-                                <td>€ 270.00/-</td>
+                                <td>R 260.00/-</td>
+                                <td>R 270.00/-</td>
                                 <!--<td>R 3800.00</td>-->
                             </tr>
                             <tr>
                                 <td>Balshaktis</td>
-                                <td>€ 200.00/-</td>
-                                <td>€ 210.00/-</td>
+                                <td>R 200.00/-</td>
+                                <td>R 210.00/-</td>
                                 <!--<td>R 2850.00</td>-->
                             </tr>
                             <tr>
@@ -474,6 +474,7 @@
                                 Swift Code : FIRNZAJJ <br>
                                 Reference : Diw 24 CT and Your Name<br>
                             </p>
+                            <p>The Payment currency for all countries will be in Rand only.</P>
                             <p>NB: If you are making a Donation payment use Reference: Diw 24 Don and Your Name.</p>
                             <p>Email payment confirmation: diwalipujasa2024@gmail.com</p>
                             <!-- <p>The amount can be transferred through RTGS and NEFT. Please insert UTR Number after payment, to complete the registration process.</p>
@@ -598,9 +599,9 @@
 
             function calculateTotalAmount() {
                 const nonForeignerPrices = {
-                    adult: 280,
-                    yuva: 260,
-                    bal: 200
+                    adult: 3800,
+                    yuva: 2850,
+                    bal: 2150
                 };
 
                 const filledPrices = {
@@ -616,9 +617,9 @@
                 };
 
                 const oneDayPujaPrices = {
-                    adult: 350,
-                    yuva: 270,
-                    bal: 210
+                    adult: 5500,
+                    yuva: 4125,
+                    bal: 3100
                 };
 
                 const registrationType = $("#registrationType").val();
@@ -649,7 +650,7 @@
                 const totalAmount = (numAdults * prices.adult) + (numYuvas * prices.yuva) + (numBals * prices.bal);
 
                 // Display total amount in the form or update the UI as needed
-                $("#totalAmount").text(`Total Amount to be paid: €${totalAmount} `);
+                $("#totalAmount").text(`Total Amount to be paid: R${totalAmount} `);
 
                 // Set the value of the hidden input
                 $("#totalAmountInput").val(totalAmount);
