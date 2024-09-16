@@ -89,7 +89,7 @@ import('emailjs').then((emailjsModule) => {
               For Diwali puja inforamtion, please visit : https://diwalipujasa2024.onrender.com/ <br>
               For any queries, feel free to reach out to us :<br>
               <strong> For Registration:</strong>Miss.Priyanka Nagar - +27 780825549<br>
-              <Strong> For Accomodation:</strong>Mrs.Bhuvana Moodley - +27 725704207<br><br>
+              <Strong> For Accomodation:</strong>Mrs.Bhuvana Moodley - +27 725704207<br>
               <strong> For General Enquires:</strong> Mrs.Yajnaa Haridas - +27 837833771<br><br>
               We look forward to celebrating this auspicious occasion with you.<br><br>
               Best Regards,<br>
